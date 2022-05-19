@@ -46,7 +46,6 @@ html, body{
 .caixaumzaum{
     display: flex;
     flex-direction: column;
-    height: 300px;
     justify-content: space-around;
     color: gray;
     margin-top: 30px;
