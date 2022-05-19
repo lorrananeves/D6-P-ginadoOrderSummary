@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+html, body{
+    height: 100%;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.fundo {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    align-items: center;
+    text-align: center;
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+.img {
+    width: 100%;
+    margin: auto;
+    border-radius: 20px 20px 0 0 ;
+}
+
+.titulo {
+    font-weight: 900;
+    color: black;
+}
+
+.texto {
+    margin: 30px 30px 0px 30px;
+}
+
+
+.caixaumzaum{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    justify-content: space-around;
+    color: gray;
+    margin-top: 30px;
+}
+
+.caixaum {
+    display: flex;
+    align-items: center;
+    background-color: hsl(225, 100%, 98%);
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 10%;
+    color: black;
+    margin-top: 30px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+
+.caixadois {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 20px 20px hsl(225, 100%, 94%);
+    /* margin-top: 30px; */
+}
+
+.ultimo {
+    color: gray;
+    margin-bottom: 8%;
+    margin-top: 30px;
+
+    
+}
+
